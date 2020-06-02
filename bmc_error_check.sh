@@ -2,7 +2,7 @@
 
 #############################################################
 # Script name: bmc_error_check.sh
-# Description: Finds known error "AH00256" in tideway log.
+# Description: Finds known error "AH00256" in tw_svc_security log.
 # - error due to BMC updates installing as root instead of tideway acct.
 # - if error found, sends email to BMC admin group.
 # Date created: 3/12/2019
