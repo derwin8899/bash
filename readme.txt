@@ -1,0 +1,1 @@
+Bash to search tideway security log for BMC discovery. Some BMC Discovery updates install as root making updated files unaccessible to the tideway service account. When known error api.https: ERROR: Apache config invalid: AH00526: appears.
