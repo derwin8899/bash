@@ -19,7 +19,7 @@ ERRORS=$(eval ${NUMERRORS})
 
 # Email settings
 SUBJECT="BMC Discovery ssl.conf error found."
-TO="root"
+TO="bmc_admins@ad.loc"
 MESSAGE="/tmp/message.txt"
 
 # Get location from IP/subnet info
