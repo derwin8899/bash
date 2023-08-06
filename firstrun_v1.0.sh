@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# I've used this for years to get a CENTOS 7 OS configured quickly
+# I've used this for years to get a CENTOS systems configured quickly
 # - Run this and it will ask for FQDN and IP and then...
 # - Checks if IP is in use and quits if it is
 # - Installs vmware tools
 # - Stops and disables network manager so IP configurtaion is old school (simple!)
 # - Installs network tools so legacy commands and utilities can be used.
 # - Sets DNS servers in resolv.conf. Make sure they are what you need for your env.
-# - Installs nslookup for troubleshooting if needed. 
+# - Installs net-toolsfor troubleshooting if needed. 
 # - Sets the hostname to what you put in for the FQDN
 # - Sets the IP address to what you put in  for the IP
 # - Sets the time zone. Adjust this to what you need. 
